@@ -1,0 +1,11 @@
+Package: storiq-objet-lang
+Version: 1.2-1
+Section: Intellique
+Priority: optional
+Architecture: all
+Depends: storiq-objet-conf (>=1.0), storiq-objet-logger (>=0.1) 
+Conflicts: objet-lang
+Replaces: objet-lang
+Maintainer: Developers Team <dev@intellique.com>
+Description: storiq-objet-lang
+ Translation object.
