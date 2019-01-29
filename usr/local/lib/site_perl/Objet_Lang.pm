@@ -84,7 +84,7 @@ sub new {
     ### Je cherche la langue utilisee sur la machine. ###
 
     # Je set le fichier ou aller chercher la langue
-    my $sys_lang_file = "/etc/environment";
+    my $sys_lang_file = "/etc/default/locale";
     my $lang_file     = "/etc/storiq/lang/";
 
     # J'ouvre mon fichier..
